@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5B26AD717673F62002B9626 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B26AD617673F62002B9626 /* Cocoa.framework */; };
+		C5B26AE117673F62002B9626 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5B26ADF17673F62002B9626 /* InfoPlist.strings */; };
+		C5B26AE317673F62002B9626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B26AE217673F62002B9626 /* main.m */; };
+		C5B26AE717673F62002B9626 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C5B26AE517673F62002B9626 /* Credits.rtf */; };
+		C5B26AEA17673F62002B9626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B26AE917673F62002B9626 /* AppDelegate.m */; };
+		C5B26AED17673F62002B9626 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B26AEB17673F62002B9626 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5B26AD317673F62002B9626 /* Rober Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rober Interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B26AD617673F62002B9626 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C5B26AD917673F62002B9626 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C5B26ADA17673F62002B9626 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C5B26ADB17673F62002B9626 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5B26ADE17673F62002B9626 /* Rober Interface-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rober Interface-Info.plist"; sourceTree = "<group>"; };
+		C5B26AE017673F62002B9626 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5B26AE217673F62002B9626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5B26AE417673F62002B9626 /* Rober Interface-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rober Interface-Prefix.pch"; sourceTree = "<group>"; };
+		C5B26AE617673F62002B9626 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C5B26AE817673F62002B9626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5B26AE917673F62002B9626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5B26AEC17673F62002B9626 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5B26AD017673F62002B9626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B26AD717673F62002B9626 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5B26ACA17673F62002B9626 = {
+			isa = PBXGroup;
+			children = (
+				C5B26ADC17673F62002B9626 /* Rober Interface */,
+				C5B26AD517673F62002B9626 /* Frameworks */,
+				C5B26AD417673F62002B9626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5B26AD417673F62002B9626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5B26AD317673F62002B9626 /* Rober Interface.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5B26AD517673F62002B9626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5B26AD617673F62002B9626 /* Cocoa.framework */,
+				C5B26AD817673F62002B9626 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5B26AD817673F62002B9626 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5B26AD917673F62002B9626 /* AppKit.framework */,
+				C5B26ADA17673F62002B9626 /* CoreData.framework */,
+				C5B26ADB17673F62002B9626 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C5B26ADC17673F62002B9626 /* Rober Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C5B26AE817673F62002B9626 /* AppDelegate.h */,
+				C5B26AE917673F62002B9626 /* AppDelegate.m */,
+				C5B26AEB17673F62002B9626 /* MainMenu.xib */,
+				C5B26ADD17673F62002B9626 /* Supporting Files */,
+			);
+			path = "Rober Interface";
+			sourceTree = "<group>";
+		};
+		C5B26ADD17673F62002B9626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5B26ADE17673F62002B9626 /* Rober Interface-Info.plist */,
+				C5B26ADF17673F62002B9626 /* InfoPlist.strings */,
+				C5B26AE217673F62002B9626 /* main.m */,
+				C5B26AE417673F62002B9626 /* Rober Interface-Prefix.pch */,
+				C5B26AE517673F62002B9626 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5B26AD217673F62002B9626 /* Rober Interface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B26AF017673F62002B9626 /* Build configuration list for PBXNativeTarget "Rober Interface" */;
+			buildPhases = (
+				C5B26ACF17673F62002B9626 /* Sources */,
+				C5B26AD017673F62002B9626 /* Frameworks */,
+				C5B26AD117673F62002B9626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rober Interface";
+			productName = "Rober Interface";
+			productReference = C5B26AD317673F62002B9626 /* Rober Interface.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5B26ACB17673F62002B9626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pascual Arroyo Arroyo";
+			};
+			buildConfigurationList = C5B26ACE17673F62002B9626 /* Build configuration list for PBXProject "Rober Interface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5B26ACA17673F62002B9626;
+			productRefGroup = C5B26AD417673F62002B9626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5B26AD217673F62002B9626 /* Rober Interface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5B26AD117673F62002B9626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B26AE117673F62002B9626 /* InfoPlist.strings in Resources */,
+				C5B26AE717673F62002B9626 /* Credits.rtf in Resources */,
+				C5B26AED17673F62002B9626 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5B26ACF17673F62002B9626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B26AE317673F62002B9626 /* main.m in Sources */,
+				C5B26AEA17673F62002B9626 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5B26ADF17673F62002B9626 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5B26AE017673F62002B9626 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5B26AE517673F62002B9626 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5B26AE617673F62002B9626 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C5B26AEB17673F62002B9626 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5B26AEC17673F62002B9626 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5B26AEE17673F62002B9626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C5B26AEF17673F62002B9626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C5B26AF117673F62002B9626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rober Interface/Rober Interface-Prefix.pch";
+				INFOPLIST_FILE = "Rober Interface/Rober Interface-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5B26AF217673F62002B9626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rober Interface/Rober Interface-Prefix.pch";
+				INFOPLIST_FILE = "Rober Interface/Rober Interface-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5B26ACE17673F62002B9626 /* Build configuration list for PBXProject "Rober Interface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B26AEE17673F62002B9626 /* Debug */,
+				C5B26AEF17673F62002B9626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B26AF017673F62002B9626 /* Build configuration list for PBXNativeTarget "Rober Interface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B26AF117673F62002B9626 /* Debug */,
+				C5B26AF217673F62002B9626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5B26ACB17673F62002B9626 /* Project object */;
+}
